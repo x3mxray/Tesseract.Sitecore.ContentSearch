@@ -4,9 +4,12 @@ Tesseract.Sitecore.ContentSearch
 This is an extension for Sitecore.ContentSearch that indexed Media items content with OCR support.
 
 More information about Tesseract for .NET can be found here : https://github.com/charlesw/tesseract
+
 Tesseract documentation: https://tesseract-ocr.github.io/
 
+How it works demo: 
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/l5Kpau3g05g/1.jpg)](https://youtu.be/l5Kpau3g05g "Sitecore Media content search by Sergey Baranov")
 
 ## Installation
 
@@ -25,7 +28,7 @@ Tested for *Sitecore 8.2 - 9.3*, should also work for *Sitecore 10* and higher *
 - Download language that you need for OCR support.
 - Add needed language in **zzzSitecore.ContentSearch.Tesseract.config**:
 
-Example for **rus** language (download *rus.traineddata* to **App_Data\tessdata** folder) and mapping for Sitecore ru-ru language:
+Example for **rus** language (download *rus.traineddata* to **App_Data\tessdata** folder) and mapping for Sitecore **ru-ru** language:
 ```
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:set="http://www.sitecore.net/xmlconfig/set/" xmlns:role="http://www.sitecore.net/xmlconfig/role/"  xmlns:search="http://www.sitecore.net/xmlconfig/search/">
